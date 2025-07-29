@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/5_checkbox.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-bold/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-regular/stylesheet.css">
+
+	<title>Fivth Task</title>
+</head>
+<body>
+	<div class="wrapper">
+		<h1 id="heading"> CheckBox </h1>
+		<div class="main_container" id="contain">
+			<div class="checkbox1" id="check1">
+				<input type="checkbox" id="input1" name="vehicle1" value="Car" onclick="check('para_div1','input1','check1')"><b>Car</b>
+				<div class="para" style="display: none;"  id="para_div1">
+				    <p id="p1">"What we drive says a lot about who we are"</p>
+			    </div>
+		   </div>
+		   <div class="checkbox1" id="check2">
+				<input type="checkbox" id="input2" name="vehicle2" value="Bike" onclick="check('para_div2','input2','check2')"><b>Bike</b>
+				<div class="para" style="display:none;" id="para_div2">
+				   <p id="p2">Distance is just a number when you ride a bike</p>
+				</div>
+		    </div>
+		    <div class="checkbox1" id="check3">
+				<input type="checkbox" id="input3" name="vehicle3" value="Cycle" onclick="check('para_div3','input3','check3')"><b>Cycle</b>
+				<div class="para" style="display:none;" id="para_div3">
+				  <p id="p3"> When my legs hurt, I say: “Shut up legs!</p>
+				</div>
+		    </div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/5_checkbox.js"></script>
+</html>

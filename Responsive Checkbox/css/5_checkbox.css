@@ -1,0 +1,166 @@
+.wrapper
+{
+	width: 100%;
+	height: 100%;
+}
+@font-face 
+{
+    font-family: 'roboto';
+    src: url('/fonts/roboto/Roboto-Bold-webfont.eot');
+    src: url('/fonts/roboto/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/roboto/Roboto-Bold-webfont.woff') format('woff'),
+         url('/fonts/roboto/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('/fonts/roboto/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+#heading
+{
+	 font-family: 'roboto';
+     font-weight: 700;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('/fonts/roboto/Roboto-Regular-webfont.eot');
+    src: url('/fonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('/fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('/fonts/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight:400;
+    font-style: normal;
+
+}
+input,p
+{
+    font-family: 'roboto';
+     font-weight: 400;
+     font-style: normal;
+}
+
+.main_container 
+{
+    width: 500px;
+    height: auto;
+    border: 1px solid #80808042;
+    padding: 0pxpx 0px 0px 10px;
+    background-color: whitesmoke;
+    padding: 2px 0px 19px 2px;
+}
+.checkbox1 
+{
+    width: 97%;
+    height: auto;
+/*    border: 1px solid red;*/
+    margin-top: 13px;
+    cursor: pointer;
+}
+input 
+{
+    width: 29px;
+    height: 25px;
+    position: relative;
+    left: 2px;
+    top: 1px;
+    cursor: pointer;
+}
+input:hover
+{
+   background-color: #ccc;
+}
+.para 
+{
+    width: 99%;
+    border: 1px solid #80808000;
+    border-bottom-color: #0000001a;
+    position: relative;
+    top: 7px;
+    left: 4px;
+    height: auto;
+}
+p{
+	text-align: initial;
+}
+b {
+    position: relative;
+    bottom: 7px;
+    font-family: 'roboto';
+    font-weight: normal;
+}
+input[type=checkbox] {
+  accent-color: #2196F3;
+}
+input-checkbox:hover {
+background-color: #f0f7f9;}
+@media screen and (max-width: 279px)
+{
+     .main_container 
+    {
+            width: 262px;
+            height: auto;
+            border: 1px solid #80808042;
+            padding: 0px 0px 0px 10px;
+            background-color: whitesmoke;
+            padding: 2px 0px 19px 2px;
+            
+    }
+    body
+    {
+        min-width: 280px;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 599px) 
+{
+	.main_container 
+    {
+            width: 262px;
+            height: auto;
+            border: 1px solid #80808042;
+            padding: 0px 0px 0px 10px;
+            background-color: whitesmoke;
+            padding: 2px 0px 19px 2px;
+            
+    }
+    p
+    {
+    	text-align: initial;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 959px) 
+{
+   .main_container 
+   {
+        width: 350px;
+        height: auto;
+        border: 1px solid #80808042;
+        padding: 0pxpx 0px 0px 10px;
+        background-color: whitesmoke;
+        padding: 2px 0px 19px 2px;
+    }
+}
+@media screen and (max-width: 1279px) and (min-width: 960px)
+{
+     .main_container 
+   {
+        width: 400px;
+        height: auto;
+        border: 1px solid #80808042;
+        padding: 0pxpx 0px 0px 10px;
+        background-color: whitesmoke;
+        padding: 2px 0px 19px 2px;
+    }
+}
+@media screen and (max-width: 1919px) and (min-width: 1280px)
+{
+
+     .main_container 
+     {
+            width: 450px;
+            height: auto;
+            border: 1px solid #80808042;
+            padding: 0pxpx 0px 0px 10px;
+            background-color: whitesmoke;
+            padding: 2px 0px 19px 2px;
+     }
+}
