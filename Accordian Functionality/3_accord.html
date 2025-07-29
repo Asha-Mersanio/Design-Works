@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/3_accord.css">
+    
+	<title>third task</title>
+</head>
+<body>
+	<div class="wrapper">
+		<h1> Accordion </h1>
+		<div class="main" id="contain">
+			<div class="item1" id="it1">
+				<div class="main_btn" onclick="ope('p1','it1','arrow1')" id="btnid">
+					<!-- <button hidden></button> -->
+					<span>Item one</span>
+					<img src="image/icons8-forward-26.png" alt="arrow" id="arrow1" class="image_icon">
+			    </div>
+			    <div class="ptag">
+				<p style="display: none;" class="para" id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			    </div>
+			</div>
+			<div class="item1" id="it2">
+				<div class="main_btn" onclick="ope('p2','it2','arrow2')">
+					<button hidden></button>
+					<span>Item two</span>
+					<img src="image/icons8-forward-26.png" alt="arrow" id="arrow2" class="image_icon">
+			    </div>
+			    <div class="ptag">
+				<p style="display: none;" class="para" id="p2" onclick="myFunction()">Vivamus et tortor sed arcu congue vehicula eget et diam. Praesent nec dictum lorem. Aliquam id diam ultrices, faucibus erat id, maximus nunc.</p>
+			    </div>
+			</div>
+			<div class="item1" id="it3">
+				<div class="main_btn" onclick="ope('p3','it3','arrow3')">
+					<button hidden></button>
+					<span>Item three</span>
+					<img src="image/icons8-forward-26.png" alt="arrow" id="arrow3" class="image_icon">
+			    </div>
+			    <div class="ptag">
+				<p style="display: none;" class="para" id="p3">Morbi vitae urna quis nunc convallis hendrerit. Aliquam congue orci quis ultricies tempus.</p>
+			    </div>
+			</div>
+			<div class="item1" id="it4">
+				<div class="main_btn" onclick="ope('p4','it4','arrow4')">
+					<button hidden></button>
+					<span>Item four</span>
+					<img src="image/icons8-forward-26.png" alt="arrow" id="arrow4" class="image_icon" >
+			    </div>
+			    <div class="ptag">
+					<p style="display: none;" class="para" id="p4">Donec vel posuere orci. Phasellus quis tortor a ex hendrerit efficitur. Aliquam lacinia ligula pharetra, sagittis ex ut.</p>
+				</div>
+			</div>
+			<div class="item1" id="it5">
+				<div class="main_btn" onclick="ope('p5','it5','arrow5')">
+					<button hidden></button>
+					<span>Item five</span>
+					<img src="image/icons8-forward-26.png" alt="arrow" id="arrow5"  class="image_icon">
+			    </div>
+			    <div class="ptag">
+				<p style="display: none;" class="para" id="p5">Vivamus finibus dictum ex id ultrices. Mauris dictum neque a iaculis blandit.</p>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="js/3_accord.js"></script>
+</html>
