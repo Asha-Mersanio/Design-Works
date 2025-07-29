@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/9_tabs1.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-bold/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-regular/stylesheet.css">
+	<title> Nineth Task</title>
+	<style>
+ 
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+	 
+		/* Display reset for newer browsers */
+		html, body, div, span, applet, object, iframe,
+		div, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* Display reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		strong, b {
+			font-weight: bold;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+	 
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<h2 id="page_heading"> Tabs </h2>
+		<div class="main_container">
+			<div class="tab">
+			    <button class="tablinks" onclick="openTab('React',this.id)" id="btn1" style="border-bottom:3px solid #06c; color: black;">React</button>
+			    <button class="tablinks" onclick="openTab('React_demos',this.id)" id="btn2">React demos</button>
+			    <button class="tablinks" onclick="openTab('HTML',this.id)" id="btn3">HTML</button>
+			    <button class="tablinks" onclick="openTab('Design_guideliness',this.id)" id="btn4">Design guideliness</button>
+			    <button class="tablinks" onclick="openTab('Accesibility',this.id)" id="btn5">Accessibility</button>
+	        </div>
+	    </div>
+		    <div class="tab_contents" id="React" >
+		    	<h3 class="tab_heading">React</h3>
+		    	<p>React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. <q>Build a future where people live in harmony with nature.</q>Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance.</p>
+		    </div>
+		    <div class="tab_contents" id="React_demos" style="display: none;">
+		    	<h3 class="tab_heading">React demos</h3>
+		    	<p>Redux is used by ReactJS for building the user interface and to manage the application state. The official React binding for Redux is <b>React Redux which is used to read data from a Redux Store, and dispatch Actions to the Store to update data.</b> It also helps the apps to scale.</p>
+		    </div>
+		    <div class="tab_contents" id="HTML" style="display: none;">
+		    	<h3 class="tab_heading">HTML</h3>
+		    	<ul>
+		    		<li class="list">All HTML tags must enclosed within these brackets.</li>
+	                <li class="list">Every tag in HTML perform different tasks.</li>
+	            </ul>
+	        </div>
+	        <div class="tab_contents" id="Design_guideliness" style="display: none;">
+		    	<h3 class="tab_heading">Design guideliness</h3>
+		    	<p>Design guidelines are a set of principles and recommendations that are used to ensure consistency and best practices in the design of a product, application, or website. They provide a framework for designers to follow, ensuring that the end product is functional, easy to use, and aesthetically pleasing.</p>
+	        </div>
+	        <div class="tab_contents" id="Accesibility" style="display: none;" >
+		    	<h3 class="tab_heading">Accesibility</h3>
+		    	<p>Accessibility can be viewed as the "ability to access" and benefit from some system or entity. The concept focuses on enabling access for people with disabilities, or enabling access through the use of assistive technology; however, research and development in accessibility brings benefits to everyone.</p>
+	        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/9_tabs.js"></script>
+</html>
