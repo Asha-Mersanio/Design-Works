@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/8_table.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-bold/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-regular/stylesheet.css">
+	<title> Eighth Task</title>
+	<style>
+ 
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+	 
+		/* Display reset for newer browsers */
+		html, body, div, span, applet, object, iframe,
+		div, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* Display reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		strong, b {
+			font-weight: bold;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+	 
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<h3 id="page_heading">Table Formats</h3>
+		<div class="table_container"  >
+			<table >
+					<tr class="table_heading_data" >
+						<th><input type="checkbox" class="checkboxs" id="checkbutton" onclick="clicked()" Name="chk_main"></th>
+						<th class="table_heading" id="h1">Repositories</th>
+						<th class="table_heading" id="h2">Branches</th>
+						<th class="table_heading" id="h3">Pull requests</th>
+						<th class="table_heading" id="h4">Workspaces</th>
+						<th class="table_heading" id="h5">Last Commit</th>
+					</tr>
+				<tbody>
+					<tr class="table_heading_data" id="tr1">
+						<td><input type="checkbox" class="checkboxs"  Name="chk" ></td>
+						<td data-label="Repositories" class="data_rows">two</td>
+						<td data-label="Branches" class="data_rows">five</td>
+						<td data-label="Pull requests" class="data_rows">b</td>
+						<td data-label="Workspaces" class="data_rows">four</td>
+						<td data-label="Last Commit" class="data_rows">five</td>
+				    </tr>
+				    <tr class="table_heading_data" id="tr2">
+						<td><input type="checkbox" class="checkboxs"  disabled=""  ></td>
+						<td data-label="Repositories" class="data_rows">one</td>
+						<td data-label="Branches" class="data_rows">a</td>
+						<td data-label="Pull requests" class="data_rows">a</td>
+						<td data-label="Workspaces" class="data_rows">four</td>
+						<td data-label="Last Commit" class="data_rows">six</td>
+				    </tr>
+				   
+				    <tr class="table_heading_data" id="tr3">
+						<td><input type="checkbox" class="checkboxs"  Name="chk"></td>
+						<td data-label="Repositories" class="data_rows">three</td>
+						<td  data-label="Branches" class="data_rows">two</td>
+						<td data-label="Pull requests" class="data_rows">g</td>
+						<td data-label="Workspaces"class="data_rows">five</td>
+						<td data-label="Last Commit" class="data_rows">seven</td>
+				    </tr>
+				    
+				    <tr class="table_heading_data" id="tr4">
+						<td><input type="checkbox" class="checkboxs"  Name="chk"></td>
+						<td data-label="Repositories">four</td>
+						<td data-label="Branches" class="data_rows">two</td>
+						<td data-label="Pull requests">c</td>
+						<td data-label="Workspaces" class="data_rows">four</td>
+						<td data-label="Last Commit" class="data_rows">six</td>
+				    </tr>
+				    
+				    <tr id="tr5">
+						<td><input type="checkbox" class="checkboxs"  Name="chk"></td>
+						<td data-label="Repositories" class="data_rows"> two</td>
+						<td data-label="Branches" class="data_rows">three</td>
+						<td data-label="Pull requests" class="data_rows">d</td>
+						<td data-label="Workspaces" class="data_rows">five</td>
+						<td data-label="Last Commit" class="data_rows">seven</td>
+				    </tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="div_container" >
+			<div class="sub_div_container">
+				<table class="table_div" >
+					<tr>
+					    <label><input type="checkbox"  class="check"  Name="chk" id="checkbutton"></label>
+						<th class="heading">Repositories</th>
+						<td class="sub_data">four</td>
+					</tr>
+					<tr>
+						<th class="heading">Branches</th>
+						<td class="sub_data">b</td>
+					</tr>
+					<tr>
+						<th class="heading">Pull requests</th>
+						<td class="sub_data">b</td>
+					</tr>
+					<tr>
+						<th class="heading">Workspaces</th>	
+						<td class="sub_data">five</td>	
+					</tr>
+					<tr>
+						<th class="heading">Last Commit</th>
+						<td class="sub_data">bharathi colony</td>
+					</tr>
+				</table>
+			</div>
+			<div class="sub_div_container">
+				<table class="table_div">
+					<tr>
+					    <label><input type="checkbox"  class="check" Name="chk"></label>
+						<th class="heading">Repositories</th>
+						<td class="sub_data" >four</td>
+					</tr>
+					<tr>
+						<th class="heading">Branches</th>						
+						<td class="sub_data">ashok nagar</td>						
+					</tr>
+					<tr>
+						<th class="heading">Pull requests</th>
+						<td class="sub_data">basant nagar</td>
+						
+					</tr>
+					<tr>
+						<th class="heading">Workspaces</th>
+						<td class="sub_data">two</td>
+					</tr>
+					<tr>
+						<th class="heading">Last Commit</th>
+					    <td class="sub_data">five</td>
+					</tr>
+				</table>
+			</div>
+			<div class="sub_div_container">
+				<table class="table_div">
+					<tr>
+					    <label><input type="checkbox"  class="check"  disabled="" Name="chk"></label>
+						<th class="heading">Repositories</th>
+						<td class="sub_data">four</td>
+					</tr>
+					<tr>
+						<th class="heading">Branches</th>
+						<td class="sub_data">two</td>
+					</tr>
+					<tr>
+						<th class="heading">Pull requests</th>
+						<td class="sub_data">three</td>
+					</tr>
+					<tr>
+						<th class="heading">Workspaces</th>
+						<td class="sub_data">two</td>
+					</tr>
+					<tr>
+						<th class="heading">Last Commit</th>
+						<td class="sub_data">two</td>
+					</tr>
+				</table>
+			</div>
+			<div class="sub_div_container">
+				<table class="table_div">
+					<tr>
+					    <label><input type="checkbox"  class="check" Name="chk"></label>
+						<th class="heading">Repositories</th>
+						<td class="sub_data"> b</td>
+					</tr>
+					<tr>
+						<th class="heading">Branches</th>
+						<td class="sub_data">two</td>
+					</tr>
+					<tr>
+						<th class="heading">Pull requests</th>
+						<td class="sub_data">one</td>
+					</tr>
+					<tr>
+						<th class="heading">Workspaces</th>
+						<td class="sub_data">g</td>
+					</tr>
+					<tr>
+						<th class="heading">Last Commit</th>
+						<td class="sub_data">five</td>
+					</tr>
+				</table>
+			</div>
+			<div class="sub_div_container">
+				<table class="table_div">
+					<tr>
+					    <label><input type="checkbox"  class="check" Name="chk"></label>
+						<th class="heading">Repositories</th>
+						<td class="sub_data">two</td>
+					</tr>
+					<tr>
+						<th class="heading">Branches</th>
+						<td class="sub_data">two</td>
+					</tr>
+					<tr>
+						<th class="heading">Pull requests</th>
+						<td class="sub_data">one</td>
+					</tr>
+					<tr>
+						<th class="heading">Workspaces</th>
+						<td class="sub_data">two</td>
+					</tr>
+					<tr>
+						<th class="heading">Last Commit</th>
+						<td class="sub_data">two</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/8_table.js"></script>
+</html>
