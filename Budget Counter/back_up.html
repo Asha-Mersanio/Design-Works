@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/budget_counter.css">
+	<title>Budget Counter</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main_div">
+			<div class="sub_div1">
+				      <div class="para"><h3 id="Budget_para">Available Budget in <span id="date"></span></h3></div>
+				      <div class="budget_value" >
+				      	<span id="budget_value"></span>
+				      </div>
+				      <div class="budget_inc_expense_value">
+				           <div class="income1">
+				  		       <label>INCOME</label>
+				           </div>
+				           <div class="expense1" id="expense">
+				           	<span id="inc_expense"></span>
+				           </div>
+				      </div>
+				      <div class="budget_inc_expense_value1">
+				  	        <div class="income1">
+				  		       <label>EXPENSE</label>
+				  	        </div>
+				  	        <div class="expense1">
+				  	         <span id="inc_expense1"></span>
+
+				  	        </div>
+				       </div>
+				  <div class="budget_table">
+				  	<div class="sub_budget_table">
+				  			<span id="dd">
+				  				<select id="select_value" onclick="select()">
+                                   <option value="+" id="positive" >+</option>
+                                   <option value="-" id="negative">-</option>
+                                </select>
+				  				
+				  			</span>
+				  			<input type="text" name="description" placeholder="Add Description" id="Add"  onblur="add_Description()">
+				  			<input type="text" name="value" min="100" max="9999"placeholder="Value" id="amount" onblur="add_amount()">
+				  			<div class="button" id="done" onclick="done();calculate();"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></div>
+				  	</div>
+				  </div>
+			</div>
+			<div class="sub_div2">
+				<div class="income_expense">
+					<div id="value_income">
+						<h2 id="heading_budget_income">Income</h3><hr>
+							<div class="value_container" id="container_income">
+								<!-- <label id="label_data" class="label_data">abc</label>
+								<span id="data" class="amount_data">1212</span> -->
+							</div>
+					</div>
+					<div id="value_expense">
+						<h2 id="heading_budget_expense">Expense</h3><hr>
+							<div class="value_container" id="container_expense">
+								<!-- <label id="label_data1" class="label_data"></label>
+								<span id="data2" class="amount_data"></span> -->
+							</div>
+							
+					</div>
+			    </div>
+		   </div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/budget_counter.js"></script>
+</html>
