@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Main task</title>
+	<link rel="stylesheet" type="text/css" href="css/task.css">
+	<!-- <link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-bold/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-regular/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-thin/stylesheet.css"> -->
+	
+</head>
+<body onresize="close_menu()">
+	<div class="wrapper">
+		<header>
+	        <a href="#sec_2"><img src="images/logo1.png" alt="header_image" style="width: 90px;" id="img_1"></a>
+	        <ul class="navigation_tabs" >
+	        	<li class="navigation_tabs_options" id="home"><a href="#sec_1" class="navigation_tabs_options_names" >Home</a></li>
+	        	<li class="navigation_tabs_options" id="about"><a href="#sec_3" class="navigation_tabs_options_names" >About</a></li>
+	        	<li class="navigation_tabs_options" id="service"><a href="#sec_4" class="navigation_tabs_options_names" >Service</a></li>
+	        	<li class="navigation_tabs_options" id="contact"><a href="#sec_5" class="navigation_tabs_options_names" >Contact</a></li>
+	        </ul> 
+	        <div class="media_image" onclick="tab_open()" >
+    	    <a href="#m_q_t">
+    	    	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="50px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z" id="menu"></path></g></g></svg>
+    	    </a>
+    	</div>
+	     <div class="media_query_tab" style="display: none;" id="m_q_t">
+			<ul class="navigation">
+	        	<li class="_tabs_options" id="home" onclick="home()"><a href="#sec_1" class="names" >Home</a></li>
+	        	<li class="_tabs_options" id="about" onclick="about()"><a href="#sec_3" class="names" >About</a></li>
+	        	<li class="_tabs_options" id="service" onclick="service()"><a href="#sec_4" class="names" >Service</a></li>
+	        	<li class="_tabs_options" id="contact" onclick="contact()"><a href="#sec_5" class="names" >Contact</a></li>
+            </ul>
+        </div>
+		</header>
+
+
+		<div class="sec" id="sec_1">
+			<!-- <h2> sec_1</h2> -->
+			<div class="home" id="click_home">
+				<h3 id="heading_1" style="margin-top: 120px;">HOME</h3>
+				<div class="image_home">
+					<img src="images/butterfly.jpg" alt="sunflower" id="img_2">
+			   	</div>
+				<div class="para_home">
+					<div class="p1">
+						<p>The sunflower (Helianthus annuus) is a living annual plant in the family Asteraceae, with a large flower head (capitulum). The stem of the flower can grow up to 3 metres tall, with a flower head that can be 30 cm wide.</p>
+					</div>
+					<div class="p1">
+						<p>The flower head is actually an inflorescence made of hundreds or thousands of tiny flowers called florets. The central florets look like the centre of a normal flower, apseudanthium.</p>
+					</div>
+					<div class="p1">
+						<p>The sunflower is the state flower of Kansas. That is why Kansas is sometimes called the Sunflower State. They grow best in fertile, wet, well-drained soil with a lot of mulch. In commercial planting, seeds are planted 45 cm (1.5 ft) apart and 2.5 cm (1 in) deep.</p>
+					</div>
+				</div>
+		    </div>
+		</div>
+
+		<div class="sec" id="sec_2">
+			<!-- <h2> sec_2</h2> -->
+			<div id="logo_welcome">
+				<h3 id="heading_2" style="margin-top: 120px;">WELCOME</h3>
+				<div class="welcome" id="click_welcome">
+						<p id="nature">Nature is the creation of natural material and physical world on earth independent of the human activities. The beauty and richness of nature is diverse and massive. Nature provides us with several delicacies to enjoy and is our life support system. Our basic needs like food, shelter, water and air are all the gifts from nature. Humans have a strong connection and interrelation with nature. Escaping away in the nature heals the mind and body and soothes our soul. Irrespective of what nature provides us it is also our moral and social responsibility to nurture nature.You will find below a number of short and long paragraphs on Nature. We hope these Nature paragraphs will help students in completing their school assignments. These will also help children to write and read out paragraphs with simple words and small sentences. Students can select any paragraph on Nature according to their particular requirement.</p>
+				</div>
+		    </div>
+		</div>
+		<div class="sec" id="sec_3">
+			<!-- <h2> sec_3</h2> -->
+			<div id="click_about">
+				<h3 id="heading_3" style="margin-top: 120px;">ABOUT</h3>
+				<p id="nature_quotes">"In every walk with nature one receives far more than he seeks." </p>
+				<div class="about">
+					<div class="box1" id="b1">
+						<img src="images/eye.svg" alt="eye" class="images" id="box1_image" >
+						<h4>VISION</h4>
+						<p id="vision" class="para"> It describes the desired long-term results of your company’s efforts   </p>
+					</div>
+					<div class="box1" id="b2">
+						<img src="images/rocket.png" alt="eye" class="images" id="box2_image" >
+						<h4>MISSION</h4>
+						<p id="mission" class="para"> It describes the desired long-term results of your company’s efforts   </p>
+					</div>
+					<div class="box1" id="b3">
+						<img src="images/settings.svg" alt="eye" class="images"   id="box3_image" >
+						<h4>VALUES</h4>
+						<p id="values" class="para"> It describes the desired long-term results of your company’s efforts   </p>
+					</div>
+				</div>
+		    </div>
+
+		</div>
+		<div class="sec" id="sec_4">
+			<!-- <h2> sec_4</h2> -->
+			<div class="services" id="services">
+				<h3 id="heading_4" style="margin-top: 120px;">OUR SERVICES</h3>
+				<p id="service_para">Nature, in the broadcast sense, is the natural, physical, or material world or universe.</p>
+				<div id="services_div">
+				<div class="services_div" >
+					<img src="images/pic1.png" alt="network" class="services_images">
+					<h5 class="services_heading"> NETWORK SERVICES</h5>
+					<p class="services_para">Network Services include IP addressing, Domain Name System (DNS), primary domain email service, Internet access, web content filtering.</p>
+				</div>
+				<div class="services_div" id="service_2">
+					<img src="images/cloud.svg" alt="network" class="services_images">
+					<h5 class="services_heading"> DATA MANAGEMENT</h5>
+					<p class="services_para">Data management is the practice of collecting, organizing, protecting, and storing an organization's data so it can be analyzed for business decisions.</p>
+				</div>
+				<div class="services_div" id="service_3">
+					<img src="images/pic2.png" alt="network" class="services_images">
+					<h5 class="services_heading"> IT CONSULTING</h5>
+					<p class="services_para">IT consulting services are advisory services that help clients assess different technology </p>
+			    </div>
+			    <div class="services_div" id="service_4">
+			    	<img src="images/pic3.png" alt="network" class="services_images">
+					<h5 class="services_heading"> HELP DESK/SUPPORT</h5>
+					<p class="services_para">Provides technical support to users by researching and answering questions, troubleshooting problems.</p>
+				</div>
+				<div class="services_div" id="service_5">
+					<img src="images/pic6.png" alt="network" class="services_images">
+					<h5 class="services_heading"> MAINTANANCE</h5>
+					<p class="services_para">taking steps to avoid something breaking down (preventative maintenance) and bringing something back to working order .</p>
+				</div>
+				<div class="services_div" id="service_6">
+					<img src="images/pic5.png" alt="network" class="services_images">
+					<h5 class="services_heading"> TRAINING</h5>
+					<p class="services_para">Training means the process of increasing the knowledge and skills of an employee for doing a particular job.</p>
+			    </div>
+			</div>
+		    </div>
+		</div>
+		<div class="sec" id="sec_5">
+			<!-- <h2> sec_5</h2> -->
+			<div id="contact_open">
+		    	<h3 id="heading_5" style="margin-top: 120px;">CONTACT</h3>
+		    	<p id="contact_para">No battle plan survives contact with the enemy</p>
+		    	<div class="contacts">
+		    		<div class="details">
+		    			<h3 class="contact_heading">DETAILS</h3>
+		    			<label class="contacts_label">NAME:</label>
+		    			<input type="text" id="name" placeholder="Enter the Name" onclick="click_name()" class="text">
+		    			<label class="contacts_label">EMAIL ADDRESS:</label>
+		    			<input type="email" id="email" placeholder="Enter the Email Address" onclick="click_email()"  class="text">
+		    			<label class="contacts_label">CONTACT NUMBER: </label>
+		    			<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter the Contact Number" onclick="click_contact()"  class="text">
+		    			<label class="contacts_label" id="label_mess">MESSAGE:</label>
+		    			<textarea id="messages" placeholder="Messages" class="input_messages" onclick="click_messages()" ></textarea>
+		    			<button id="button" onclick="send()" >Send message</button>
+		    		</div>
+		    		<div class="address">
+		    			<h3 class="contact_heading">ADDRESS & DIRECTION</h3>
+		    			<p id="head">SYSTRIBE TECHONOLOGIES</p>
+		    			<span>19 Paradise square</span><br>
+		    			<span>Shefield</span><br>
+		    			<span>United kingdom</span><br>
+
+
+
+		    			<p class="p">telephone: +918907654321</p>
+		    			<p class="p">company no:</p>
+		    			<span id="s">0645005</span>
+		    			<div class="iframe">
+		    				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0232005700777!2d80.20776697584253!3d13.034194513501275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52671ffd3d90d7%3A0x5c6f4412588a8baa!2sSystribe%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1694751714156!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="frame"></iframe>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+
+        <footer>
+    		<div class="footer_div">
+	    		<div class="footer_1">
+	    			<h5 class="footer_heading1">LOCATION</h5>
+	    			<p id="footer_para"> Shivaji Nagar, Bengaluru, Karnataka , K7890</p>
+	    		</div>
+	    		<div class="footer_2">
+	    			<h5 class="footer_heading1">AROUND THE WEB</h5>
+	    			<div class="svg_icons">
+	    				<div class="svg_div">
+		    			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="35px" height="35px"><g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.6907,0 -23,10.3093 -23,23c0,12.69071 10.3093,23 23,23c12.69071,0 23,-10.30929 23,-23c0,-12.6907 -10.30929,-23 -23,-23zM25,4c11.60983,0 21,9.39017 21,21c0,11.60983 -9.39017,21 -21,21c-2.12364,0 -4.17229,-0.31786 -6.10352,-0.90234c0.86025,-1.43824 1.97086,-3.49407 2.41211,-5.19141c0.26213,-1.00636 1.33984,-5.11133 1.33984,-5.11133c0.7004,1.33714 2.74684,2.46875 4.92578,2.46875c6.4839,0 11.1582,-5.96299 11.1582,-13.37305c0,-7.1041 -5.79701,-12.41797 -13.25586,-12.41797c-9.27973,0 -14.20508,6.22817 -14.20508,13.00977c0,3.15388 1.67744,7.07977 4.36328,8.33008c0.40684,0.18937 0.62531,0.10733 0.71875,-0.28711c0.07194,-0.29935 0.43475,-1.7586 0.59766,-2.4375c0.0521,-0.21665 0.02687,-0.40384 -0.14844,-0.61719c-0.88894,-1.0783 -1.60156,-3.0589 -1.60156,-4.90625c0,-4.74241 3.59028,-9.33203 9.70703,-9.33203c5.28156,0 8.98047,3.60045 8.98047,8.74805c0,5.81575 -2.9366,9.8457 -6.75781,9.8457c-2.11031,0 -3.6905,-1.74581 -3.18359,-3.88672c0.60779,-2.55519 1.78125,-5.31251 1.78125,-7.1582c0,-1.65054 -0.88576,-3.02734 -2.7207,-3.02734c-2.15744,0 -3.89062,2.23055 -3.89062,5.2207c0,1.90275 0.64453,3.19141 0.64453,3.19141c0,0 -2.13118,9.0105 -2.52148,10.6875c-0.39114,1.67579 -0.28638,3.93285 -0.125,5.61328c-7.6941,-3.11433 -13.11523,-10.64747 -13.11523,-19.4668c0,-11.60982 9.39017,-21 21,-21z" class="fooetr_images svg" id="pin"></path></g></g></svg>
+		    		    </div>
+		  
+		    			<div class="svg_div">
+
+		    			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="35px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M26,2c-12.69141,0 -23,10.30859 -23,23c0,12.69141 10.30859,23 23,23c9.91797,0 15.97266,-4.5625 19.125,-10.21875c3.15234,-5.65625 3.55078,-12.30078 2.59375,-16.84375l-0.1875,-0.78125h-0.78125l-20.75,-0.03125h-1v10.40625h11.4375c-1.72656,4 -5.24219,6.75 -10.4375,6.75c-6.78906,0 -12.28125,-5.49219 -12.28125,-12.28125c0,-6.78906 5.49219,-12.28125 12.28125,-12.28125c3.05078,0 5.82031,1.12891 7.96875,2.96875l0.71875,0.59375l6.84375,-6.84375l0.71875,-0.75l-0.75,-0.6875c-4.08594,-3.72266 -9.53906,-6 -15.5,-6zM26,4c5.07422,0 9.65234,1.85547 13.28125,4.84375l-4.8125,4.8125c-2.37891,-1.77734 -5.26953,-2.9375 -8.46875,-2.9375c-7.87109,0 -14.28125,6.41016 -14.28125,14.28125c0,7.87109 6.41016,14.28125 14.28125,14.28125c6.55078,0 11.26172,-4.01562 12.9375,-9.46875l0.40625,-1.28125h-12.34375v-6.40625l18.84375,0.03125c0.66406,4.03516 0.22266,9.82813 -2.46875,14.65625c-2.85937,5.125 -8.05469,9.1875 -17.375,9.1875c-11.61328,0 -21,-9.39062 -21,-21c0,-11.60937 9.38672,-21 21,-21z" class="fooetr_images svg" id="google"></path></g></g></svg>
+		    		    </div>
+
+		    			
+		    			<div class="svg_div">
+		    			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="35px" height="35px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M14,4c-5.51133,0 -10,4.48867 -10,10v22c0,5.51133 4.48867,10 10,10h22c5.51133,0 10,-4.48867 10,-10v-22c0,-5.51133 -4.48867,-10 -10,-10zM14,6h22c4.43067,0 8,3.56933 8,8v22c0,4.43067 -3.56933,8 -8,8h-22c-4.43067,0 -8,-3.56933 -8,-8v-22c0,-4.43067 3.56933,-8 8,-8zM25,11c-8.1938,0 -15,5.72433 -15,12.96289c0,4.45976 2.68123,8.28191 6.57227,10.59766c-0.59268,0.94029 -1.33853,1.91357 -2.27148,2.82422c-0.31292,0.30675 -0.38971,0.78148 -0.18946,1.17123c0.20025,0.38976 0.63091,0.60376 1.0625,0.52799c2.30815,-0.40948 4.72094,-1.25778 6.70508,-2.48633c1.00708,0.18803 2.03923,0.32813 3.12109,0.32813c8.1938,0 15,-5.72433 15,-12.96289c0,-7.23856 -6.80611,-12.96289 -15,-12.96289zM25,13c7.27011,0 13,4.98945 13,10.96289c0,5.97344 -5.7298,10.96289 -13,10.96289c-1.06408,0 -2.09492,-0.12042 -3.0957,-0.32812c-0.26141,-0.054 -0.53355,-0.00126 -0.75586,0.14648c-0.92594,0.61319 -2.05258,1.11797 -3.23633,1.53516c0.36724,-0.497 0.7528,-0.98559 1.00977,-1.54297c0.22633,-0.49175 0.02031,-1.07432 -0.46484,-1.31445c-3.90515,-1.9274 -6.45703,-5.45427 -6.45703,-9.45898c0,-5.97344 5.7298,-10.96289 13,-10.96289z" class="fooetr_images svg" id="profile"></path></g></g></svg>
+		    		    </div>
+		    			
+                        <div class="svg_div">
+		    			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="35px" height="35px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.6907,0 -23,10.3093 -23,23c0,12.69071 10.3093,23 23,23c12.69071,0 23,-10.30929 23,-23c0,-12.6907 -10.30929,-23 -23,-23zM25,4c11.60982,0 21,9.39018 21,21c0,11.60982 -9.39018,21 -21,21c-11.60982,0 -21,-9.39018 -21,-21c0,-11.60982 9.39018,-21 21,-21zM30.69336,14.05859c-3.60031,0 -6.54102,2.93958 -6.54102,6.53906c0,0.0253 0.00751,0.04896 0.00781,0.07422c-3.81409,-0.50757 -7.18808,-2.39053 -9.50586,-5.23242c-0.20741,-0.254 -0.52616,-0.39018 -0.85308,-0.36447c-0.32692,0.02572 -0.62045,0.21007 -0.7856,0.49337c-0.56289,0.96765 -0.88477,2.09541 -0.88477,3.28906c0,1.06217 0.2959,2.0489 0.74805,2.93945c-0.46159,0.09772 -0.79209,0.50475 -0.79297,0.97656v0.07031c0,1.93403 0.90503,3.60904 2.24609,4.80859c-0.27505,0.26429 -0.37581,0.66202 -0.25976,1.02539c0.55844,1.73693 1.86014,3.09674 3.49023,3.86328c-1.30409,0.60998 -2.70141,1.04688 -4.24219,1.04688c-0.4108,0 -0.81012,-0.02335 -1.20117,-0.07031c-0.46347,-0.05613 -0.90412,0.21586 -1.06168,0.65533c-0.15755,0.43947 0.00991,0.92948 0.40347,1.18061c2.60447,1.6711 5.70586,2.64648 9.0293,2.64648c5.37065,0 9.61567,-2.25613 12.45313,-5.47461c2.83745,-3.21848 4.31055,-7.37231 4.31055,-11.28516c0,-0.11751 -0.00541,-0.22994 -0.00781,-0.3457c0.97384,-0.78179 1.88973,-1.64409 2.58398,-2.68359c0.23504,-0.35175 0.22334,-0.81333 -0.02923,-1.15271c-0.25256,-0.33938 -0.69135,-0.48314 -1.09577,-0.35901c0.16163,-0.31458 0.39041,-0.58769 0.5,-0.92969c0.12647,-0.39526 -0.0043,-0.82756 -0.32866,-1.08644c-0.32436,-0.25888 -0.7749,-0.29054 -1.13228,-0.07957c-0.87459,0.51821 -1.8573,0.85987 -2.875,1.09766c-1.14337,-0.97415 -2.56385,-1.64258 -4.17578,-1.64258zM30.69336,16.05859c1.31219,0 2.48496,0.54839 3.3125,1.43164c0.23529,0.25178 0.58362,0.3647 0.92188,0.29883c0.15192,-0.02988 0.27395,-0.12662 0.42383,-0.16211c-0.0186,0.01151 -0.03005,0.03172 -0.04883,0.04297c-0.38766,0.23275 -0.57093,0.69665 -0.44701,1.13151c0.12392,0.43485 0.52419,0.73247 0.97631,0.72591c-0.06869,0.05238 -0.1097,0.13498 -0.17969,0.18555c-0.27276,0.19678 -0.42834,0.51748 -0.41406,0.85352c0.0095,0.22425 0.01563,0.44943 0.01563,0.67383c0,3.40515 -1.31425,7.13137 -3.81055,9.96289c-2.4963,2.83152 -6.13477,4.79688 -10.95312,4.79688c-1.65319,0 -3.20853,-0.33031 -4.68945,-0.83203c1.84226,-0.39035 3.58646,-1.04277 5.01563,-2.16406c0.33139,-0.26134 0.46306,-0.70258 0.32907,-1.10279c-0.13399,-0.40021 -0.50478,-0.67323 -0.92673,-0.68236c-1.41565,-0.02571 -2.50594,-0.82641 -3.32031,-1.85937c0.29918,-0.03871 0.60861,-0.0401 0.89453,-0.11914c0.44721,-0.12249 0.75157,-0.5363 0.73529,-0.9997c-0.01628,-0.46339 -0.34895,-0.85482 -0.80365,-0.94562c-1.65141,-0.33328 -2.93961,-1.57189 -3.41211,-3.17383c0.4253,0.10235 0.79795,0.33128 1.25,0.3457c0.44561,0.01365 0.84644,-0.2693 0.98279,-0.69376c0.13635,-0.42445 -0.02471,-0.8879 -0.3949,-1.13632c-1.21974,-0.81562 -2.01953,-2.19701 -2.01953,-3.7793c0,-0.327 0.17547,-0.5869 0.24024,-0.89258c2.8405,2.81186 6.62074,4.67806 10.87695,4.89258c0.31404,0.01574 0.6172,-0.11713 0.81846,-0.35872c0.20126,-0.24159 0.27718,-0.56376 0.20497,-0.8698c-0.07783,-0.32915 -0.11914,-0.67252 -0.11914,-1.03125c0,-2.51852 2.02132,-4.53906 4.54102,-4.53906z" class="fooetr_images svg" id="twitter"></path></g></g></svg>
+		    		    </div>
+		    			
+		    			 <div class="svg_div">
+	                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="35px" height="35px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.6907,0 -23,10.3093 -23,23c0,12.69071 10.3093,23 23,23c12.69071,0 23,-10.30929 23,-23c0,-12.6907 -10.30929,-23 -23,-23zM25,4c11.60982,0 21,9.39018 21,21c0,11.60982 -9.39018,21 -21,21c-11.60982,0 -21,-9.39018 -21,-21c0,-11.60982 9.39018,-21 21,-21zM26.58008,10c-2.65186,0 -4.663,0.86722 -5.90234,2.40039c-1.23934,1.53317 -1.67773,3.58065 -1.67773,5.82617v1.77344h-2c-0.55226,0.00006 -0.99994,0.44774 -1,1v5c0.00006,0.55226 0.44774,0.99994 1,1h2v12c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-12h4c0.47687,-0.00017 0.88729,-0.33701 0.98047,-0.80469l1,-5c0.05844,-0.29363 -0.01774,-0.598 -0.20762,-0.82948c-0.18987,-0.23148 -0.47346,-0.36572 -0.77285,-0.36584h-5v-2.19336c0,-0.48502 0.03137,-0.48103 0.17188,-0.57227c0.14051,-0.09124 0.64832,-0.23437 1.53906,-0.23437h3.28906c0.55226,-0.00006 0.99994,-0.44774 1,-1v-4c-0.00023,-0.42258 -0.26605,-0.79942 -0.66406,-0.94141c0,0 -2.8796,-1.05859 -5.75586,-1.05859zM26.58008,12c1.89242,0 3.64742,0.51045 4.41992,0.75195v2.24805h-2.28906c-1.04726,0 -1.89696,0.08458 -2.62695,0.55859c-0.72999,0.47401 -1.08398,1.38207 -1.08398,2.24805v3.19336c0.00006,0.55226 0.44774,0.99994 1,1h4.7793l-0.59961,3h-4.17969c-0.55226,0.00006 -0.99994,0.44774 -1,1v12h-4v-12c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1h-2v-3h2c0.55226,-0.00006 0.99994,-0.44774 1,-1v-2.77344c0,-1.97948 0.40501,-3.54478 1.23242,-4.56836c0.82741,-1.02358 2.10451,-1.6582 4.34766,-1.6582z" class="fooetr_images svg" id="facebook"></path></g></g></svg>
+	                     </div>
+		    			
+	    		</div>
+	    		</div> 
+	    		<div class="footer_3">
+	    			<h5 class="footer_heading1">ABOUT THE COMPANY</h5>
+	    			<P ID="FOOTER">Freelancher is free to use open source Bootstrap theme started by bootstrap</P>
+	    		</div>
+	    	</div>
+    	</footer> 
+    	
+	    <div id="space_1_1"></div>
+	</div>
+</body>
+<script type="text/javascript" src="js/10_task.js"></script>
+</html>
